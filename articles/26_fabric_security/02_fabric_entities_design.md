@@ -93,7 +93,7 @@ For example:
 
 ### Master Key Rotation
 
-Master key rotation is another crucial feature provided by Fabric to ensure data security stringency. Although the data is organized and encrypted on a per-instance basis, Fabric users can regenerate keys by setting a regularly scheduled daily or weekly job calling Fabric's [rekey](/articles/26_fabric_security/03_fabric_LUI_encryption.md#lurekey) function to re-issue the master key and therefore re-encrypt data from all instances.
+Master key rotation is another crucial feature provided by Fabric to ensure data security stringency. Although the data is organized and encrypted on a per-instance basis, Fabric users can regenerate keys by setting a regularly scheduled job (e.g. daily or weekly) calling Fabric's [rekey](/articles/26_fabric_security/03_fabric_LUI_encryption.md#lurekey) function to re-issue the master key and therefore re-encrypt data from all instances.
 
 Note that the job does not have to be time-based but must be triggered by any other condition such as the number of LUIs per node.
 
